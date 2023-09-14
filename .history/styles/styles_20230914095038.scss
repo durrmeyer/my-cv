@@ -6,7 +6,7 @@
 }
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #F4BE69;
+  --color-secondary: color: var(--color-white);;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -21,7 +21,7 @@
 }
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #8F4321;
+  --color-secondary: #c1a37f;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -100,7 +100,7 @@ header {
     box-shadow: var(--box-shadow-1);
     i {
       font-size: 1.2rem;
-      color: var(--color-black);
+      color: var(--color-white);
       pointer-events: none;
     }
   }
