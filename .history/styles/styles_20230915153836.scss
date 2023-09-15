@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #f4be69;
+  --color-secondary: #F4BE69;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #8f4321;
+  --color-secondary: #8F4321;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -242,16 +242,23 @@ header {
         border: 1px solid var(--color-secondary);
         box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
       }
-      .abt-img {
-        img {
-          transition: transform 0.1s;
-          width: 517px;
-          height: 330px;
-          padding-top: 7px;
-          padding-left: 7px;
-          padding-right: 7px;
-        }
-      }
+.abt-img{
+  img{
+    transition: transform .1s;
+    width: 517px;
+    height: 330px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    :hover{
+      -ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+}
+    }
+  }
+  
+}
       .abt-text {
         padding: 1.5rem;
         display: flex;
@@ -327,6 +334,8 @@ header {
         .prog-text {
           color: var(--color-grey-2);
         }
+
+        
       }
     }
   }
@@ -403,7 +412,10 @@ header {
       }
     }
 
+    p {
+      color: var(--color-grey-2);
     }
+  }
 }
 
 //Portfolios

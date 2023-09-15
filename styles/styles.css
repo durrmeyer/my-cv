@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #F4BE69;
+  --color-secondary: #f4be69;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #8F4321;
+  --color-secondary: #8f4321;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -227,6 +227,7 @@ header {
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
 }
 .about-container .right-about .about-item .abt-img img {
+  transition: transform 0.1s;
   width: 517px;
   height: 330px;
   padding-top: 7px;
@@ -363,9 +364,6 @@ header {
   color: var(--color-grey-2);
   font-weight: 500;
   font-size: 1.2rem;
-}
-.timeline .timeline-item p {
-  color: var(--color-grey-2);
 }
 
 .port-text {

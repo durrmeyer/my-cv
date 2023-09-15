@@ -7,7 +7,7 @@
 
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #f4be69;
+  --color-secondary: #F4BE69;
   --color-white: #ffffff;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -23,7 +23,7 @@
 
 .light-mode {
   --color-primary: #ffffff;
-  --color-secondary: #8f4321;
+  --color-secondary: #8F4321;
   --color-white: #454e56;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -233,6 +233,7 @@ header {
     .about-item {
       border: 1px solid var(--color-grey-5);
       border-radius: 5px;
+      transition: transform .1s;
       transition: all 0.4s ease-in-out;
       box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
 
@@ -242,16 +243,16 @@ header {
         border: 1px solid var(--color-secondary);
         box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
       }
-      .abt-img {
-        img {
-          transition: transform 0.1s;
-          width: 517px;
-          height: 330px;
-          padding-top: 7px;
-          padding-left: 7px;
-          padding-right: 7px;
-        }
-      }
+.abt-img{
+  img{
+    width: 517px;
+    height: 330px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  
+}
       .abt-text {
         padding: 1.5rem;
         display: flex;
@@ -327,6 +328,8 @@ header {
         .prog-text {
           color: var(--color-grey-2);
         }
+
+        
       }
     }
   }
@@ -403,7 +406,10 @@ header {
       }
     }
 
+    p {
+      color: var(--color-grey-2);
     }
+  }
 }
 
 //Portfolios
