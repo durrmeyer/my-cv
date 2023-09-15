@@ -355,10 +355,11 @@ header {
 /*Timeline*/
 .timeline {
   display: grid;
-   grid-gap: 2rem;
+ 
+  grid-gap: 2rem;
   padding-bottom: 3rem;
   padding-left: 45px;
-  padding-right: 105px;
+  padding-right: 45px;
   .timeline-item {
     position: relative;
     padding-left: 3rem;

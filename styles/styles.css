@@ -317,9 +317,10 @@ header {
 /*Timeline*/
 .timeline {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
   padding-bottom: 3rem;
+  padding-left: 45px;
+  padding-right: 105px;
 }
 .timeline .timeline-item {
   position: relative;
