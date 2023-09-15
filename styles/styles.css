@@ -273,6 +273,32 @@ header {
   text-transform: uppercase;
 }
 
+.about-stats {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 4rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .prog-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-stats .progress-bars .progress-bar .progress-con {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-con .prog-text {
+  color: var(--color-grey-2);
+}
+
 .stat-title {
   text-transform: uppercase;
   font-size: 1.4rem;
@@ -337,6 +363,9 @@ header {
   color: var(--color-grey-2);
   font-weight: 500;
   font-size: 1.2rem;
+}
+.timeline .timeline-item p {
+  color: var(--color-grey-2);
 }
 
 .port-text {
@@ -409,6 +438,11 @@ header {
 }
 .portfolios .portfolio-item .hover-items .icons .icon:hover i {
   color: var(--color-primary);
+}
+
+.portfolio-item:hover .hover-items {
+  opacity: 1;
+  transform: scale(1);
 }
 
 .blogs {
@@ -686,8 +720,8 @@ header {
     padding-top: 2.5rem;
   }
   .about-container .right-about .about-item .abt-img img {
-    width: 314px;
-    height: 201px;
+    width: 404px;
+    height: auto;
   }
   .about-container .left-about {
     padding-right: 0;
@@ -796,7 +830,6 @@ header {
 }
 @media screen and (max-width: 1070px) {
   .about-container {
-    padding-left: 0;
     padding-top: 67px;
     grid-template-columns: repeat(1, 1fr);
   }
