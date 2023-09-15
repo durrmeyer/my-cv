@@ -55,16 +55,11 @@
     .right-about {
       grid-template-columns: repeat(1, 1fr);
       padding-top: 2.5rem;
-      .about-item{
-        .abt-img{
-            img {
-                width: 314px;
-                height: 201px;
-              }
-        }
-      }
     }
-    
+    img {
+      width: 314px;
+      height: 201px;
+    }
     .left-about {
       padding-right: 0;
       p {
@@ -90,6 +85,7 @@
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 6rem;
     margin-top: 1rem;
   }
 
@@ -99,9 +95,11 @@
   }
 
   .contact-content-con {
-    padding-top: 16px;
     flex-direction: column;
-    
+    .right-contact {
+      margin-left: 0;
+      margin-top: 2.5rem;
+    }
   }
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;

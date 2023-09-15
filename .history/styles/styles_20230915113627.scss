@@ -301,6 +301,38 @@ header {
   }
 }
 
+.about-stats {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 4rem;
+
+  .progress-bars {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+
+    .progress-bar {
+      display: flex;
+      flex-direction: column;
+
+      .prog-title {
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+
+      .progress-con {
+        display: flex;
+        align-items: center;
+
+        .prog-text {
+          color: var(--color-grey-2);
+        }
+
+        
+      }
+    }
+  }
+}
 
 .stat-title {
   text-transform: uppercase;
@@ -373,7 +405,9 @@ header {
       }
     }
 
-   
+    p {
+      color: var(--color-grey-2);
+    }
   }
 }
 

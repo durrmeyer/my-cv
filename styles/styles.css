@@ -207,6 +207,7 @@ header {
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
+  padding-left: 3.5rem;
 }
 .about-container .right-about {
   display: grid;
@@ -224,6 +225,13 @@ header {
   transform: translateY(-5px);
   border: 1px solid var(--color-secondary);
   box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.32);
+}
+.about-container .right-about .about-item .abt-img img {
+  width: 517px;
+  height: 330px;
+  padding-top: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 .about-container .right-about .about-item .abt-text {
   padding: 1.5rem;
@@ -263,64 +271,6 @@ header {
 .about-container .left-about h4 {
   font-size: 2rem;
   text-transform: uppercase;
-}
-
-.about-stats {
-  padding-bottom: 4rem;
-}
-.about-stats .progress-bars {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
-}
-.about-stats .progress-bars .progress-bar {
-  display: flex;
-  flex-direction: column;
-}
-.about-stats .progress-bars .progress-bar .prog-title {
-  text-transform: uppercase;
-  font-weight: 500;
-}
-.about-stats .progress-bars .progress-bar .progress-con {
-  display: flex;
-  align-items: center;
-}
-.about-stats .progress-bars .progress-bar .progress-con .prog-text {
-  color: var(--color-grey-2);
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress {
-  width: 100%;
-  height: 0.45rem;
-  background-color: var(--color-grey-4);
-  margin-left: 1rem;
-  position: relative;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  background-color: var(--color-secondary);
-  transition: all 0.4s ease-in-out;
-  width: 60%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 70%;
 }
 
 .stat-title {
@@ -387,9 +337,6 @@ header {
   color: var(--color-grey-2);
   font-weight: 500;
   font-size: 1.2rem;
-}
-.timeline .timeline-item p {
-  color: var(--color-grey-2);
 }
 
 .port-text {
@@ -743,6 +690,10 @@ header {
     grid-template-columns: repeat(1, 1fr);
     padding-top: 2.5rem;
   }
+  .about-container .right-about .about-item .abt-img img {
+    width: 314px;
+    height: 201px;
+  }
   .about-container .left-about {
     padding-right: 0;
   }
@@ -761,7 +712,6 @@ header {
   }
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
-    padding-bottom: 6rem;
     margin-top: 1rem;
   }
   .blogs {
@@ -769,11 +719,8 @@ header {
     padding-bottom: 6rem;
   }
   .contact-content-con {
+    padding-top: 16px;
     flex-direction: column;
-  }
-  .contact-content-con .right-contact {
-    margin-left: 0;
-    margin-top: 2.5rem;
   }
   .contact-content-con .right-contact .i-c-2 {
     flex-direction: column;
