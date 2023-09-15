@@ -689,12 +689,6 @@ header {
     width: 314px;
     height: 201px;
   }
-  .about-container .left-about {
-    padding-right: 0;
-  }
-  .about-container .left-about p {
-    padding-left: 0;
-  }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
     padding-bottom: 6rem;
