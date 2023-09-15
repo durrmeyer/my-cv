@@ -203,8 +203,6 @@ header {
 
 /*About*/
 .about-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
   padding-left: 3.5rem;
@@ -718,7 +716,7 @@ header {
     padding-top: 2.5rem;
   }
   .about-container .right-about .about-item .abt-img img {
-    width: 404px;
+    width: 100%;
     height: auto;
   }
   .about-container .left-about {
@@ -829,6 +827,7 @@ header {
 @media screen and (max-width: 1070px) {
   .about-container {
     padding-top: 67px;
+    padding-left: 0;
     grid-template-columns: repeat(1, 1fr);
   }
   .about-container .right-about {
@@ -849,7 +848,7 @@ header {
     padding: 7rem 6rem;
   }
   .about-container .left-about {
-    padding-right: 0rem;
+    padding-left: 0rem;
   }
   .header-content {
     grid-template-columns: repeat(1, 1fr);
