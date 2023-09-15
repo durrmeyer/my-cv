@@ -82,7 +82,11 @@
     padding: 2rem 2.5rem !important;
   }
 
-  
+  .about-stats {
+    .progress-bars {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
 
   .portfolios {
     grid-template-columns: repeat(1, 1fr);
@@ -196,7 +200,7 @@
 @media screen and (max-width: 1070px) {
   .about-container {
     padding-top: 67px;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(, 1fr);
     .right-about {
       padding-top: 2.5rem;
     }
