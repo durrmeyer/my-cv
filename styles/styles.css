@@ -780,7 +780,6 @@ header {
 @media screen and (max-width: 1432px) {
   .container {
     padding-top: 54px;
-    padding: 7rem 11rem;
   }
   .contact-content-con {
     flex-direction: column;
@@ -884,6 +883,9 @@ header {
   }
   .timeline {
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
   }
   .main-title h2 {
     font-size: 3rem;
