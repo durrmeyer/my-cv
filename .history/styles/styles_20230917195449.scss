@@ -483,16 +483,16 @@ header {
   transform: scale(1);
 }
 
+//Blogs Section
 
 
 //Contact section
 .contact-content-con {
   display: flex;
-   padding-top: 3.5rem;
-  align-items: center;
-  font-size: 45px;
+  padding-top: 3.5rem;
+
   .left-contact {
-  
+    flex: 2;
 
     h4 {
       margin-top: 1rem;
@@ -518,7 +518,7 @@ header {
 
         .icon {
           display: grid;
-          grid-template-columns: 60px 1fr;
+          grid-template-columns: 40px 1fr;
 
           i {
             display: flex;
@@ -680,12 +680,6 @@ header {
       font-size: 6.3rem;
     }
   }
-}
-.footer{
-  padding-top: 91px;
-  padding-bottom: 91px;
-  display: flex;
-    justify-content: center;
 }
 
 @import './media';

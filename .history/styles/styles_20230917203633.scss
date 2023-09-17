@@ -488,11 +488,10 @@ header {
 //Contact section
 .contact-content-con {
   display: flex;
-   padding-top: 3.5rem;
+  padding-top: 3.5rem;
   align-items: center;
-  font-size: 45px;
   .left-contact {
-  
+    flex: 2;
 
     h4 {
       margin-top: 1rem;
@@ -517,8 +516,9 @@ header {
         }
 
         .icon {
-          display: grid;
-          grid-template-columns: 60px 1fr;
+          display: flex;
+          justify-content: center;
+     
 
           i {
             display: flex;

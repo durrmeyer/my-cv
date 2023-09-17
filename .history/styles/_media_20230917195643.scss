@@ -249,9 +249,13 @@
   }
 }
 @media screen and (max-width: 700px) {
+  .container {
+    padding: 7rem 3rem;
+  }
   
-  
-  
+  .about-container .right-about {
+    grid-template-columns: repeat(1, 1fr);
+  }
 
   .timeline {
     grid-template-columns: repeat(1, 1fr);
